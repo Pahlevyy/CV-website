@@ -1,0 +1,5 @@
+- [x] Tambahkan media queries untuk responsivitas mobile di style.css
+- [x] Sesuaikan hero section untuk mobile
+- [x] Sesuaikan carousel untuk mobile
+- [x] Sesuaikan skills section untuk mobile
+- [x] Test responsivitas

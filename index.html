@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet";>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg" style="background-color: lightblue;" >
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">CV</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#pengalaman">Pengalaman</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#kontak">Kontak</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--navbar end-->
+
+<!--hero section-->
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <img src="./image/profil.jpg" alt="Foto Profil" class="profile-img">
+        <div class="text-content">
+            <h2 class="link"> <a href="https://drive.google.com/file/d/1pVnQhtRhWNlazucu-_6q7uqMdDbZVQss/view?usp=sharing">Mohammad Reza Pahlevy</a></h2>
+            <p style="color: black;"> Web Developer | Student</p>
+        </div>
+    </div>
+</section>
+  
+  <div class="row">
+    <div class="col-6">
+      <div class="card p-3 border-0">
+        <section class="content">
+    <h3>Tentang Saya</h3>
+    <p>Mahasiswa yang memiliki motivasi tinggi, mampu bekerja dalam tim, dan cepat beradaptasi dengan lingkungan baru. Siap berkontribusi secara optimal untuk mencapai tujuan perusahaan.</p>
+        </section>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="card p-3 border-0">
+          <section class="content" id="pengalaman">
+    <h3>Pengalaman</h3>
+    <p>Belum memiliki pengalaman kerja, namun memiliki pengalaman dalam mengikuti bootcamp web development. Bootcamp ini memberikan dasar yang kuat dalam pengembangan web.</p>
+</section>
+      </div>
+    </div>
+  </div>
+
+  <div class="parent">
+    <div id="experienceCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators vertical">
+        <button type="button" data-bs-target="#experienceCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#experienceCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#experienceCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="slide-content">
+            <div class="slide-large" style="background-image: url('./image/unnamed.webp');">
+              <div class="text-content">
+                <h4>Pengalaman </h4>
+                <p>Menjadi waiterss di rumah makan sukho.</p>
+              </div>
+            </div>
+            <div class="cards-preview">
+              <div class="card-small" data-slide="1">
+                <img src="./image/unnamed.webp" alt="Project" class="card-img">
+                <div class="card-overlay">
+                  <h5>Project</h5>
+                  <p>Personal</p>
+                </div>
+              </div>
+              <div class="card-small" data-slide="2">
+                <img src="./image/sukho2.webp" alt="Freelance" class="card-img">
+                <div class="card-overlay">
+                  <h5>Freelance</h5>
+                  <p>Web Design</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="slide-content">
+            <div class="slide-large" style="background-image: url('./image/ekop.jpeg');">
+              <div class="text-content">
+                <h4>Pengalaman 2</h4>
+                <p>Menjadi waiterss dan juga steward di cafe sidoarjo.</p>
+              </div>
+            </div>
+            <div class="cards-preview">
+              <div class="card-small" data-slide="0">
+                <img src="./image/ekopmakanan.jpeg" alt="Bootcamp" class="card-img">
+                <div class="card-overlay">
+                  <h5>Bootcamp</h5>
+                  <p>Web Development</p>
+                </div>
+              </div>
+              <div class="card-small" data-slide="2">
+                <img src="./image/ekop2.jpeg" alt="Freelance" class="card-img">
+                <div class="card-overlay">
+                  <h5>Freelance</h5>
+                  <p>Web Design</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="slide-content">
+            <div class="slide-large" style="background-image: url('./image/background.jpg');">
+              <div class="text-content">
+                <h4>Pengalaman 3</h4>
+                <p>Deskripsi pengalaman ketiga.</p>
+              </div>
+            </div>
+            <div class="cards-preview">
+              <div class="card-small" data-slide="0">
+                <img src="./image/bg2.jpg" alt="Bootcamp" class="card-img">
+                <div class="card-overlay">
+                  <h5>Bootcamp</h5>
+                  <p>Web Development</p>
+                </div>
+              </div>
+              <div class="card-small" data-slide="1">
+                <img src="./image/bulan.jpg" alt="Project" class="card-img">
+                <div class="card-overlay">
+                  <h5>Project</h5>
+                  <p>Personal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#experienceCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#experienceCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+</div>]
+
+<section class="container text-center mt-5">
+  <h2 class="mb-4">Skill yang dikuasai</h2>
+
+  <div class="skills-wrapper">
+     <div class="row justify-content-center g-4">
+
+    <div class="col-12 col-md-5 d-flex justify-content-center">
+      <div class="skill-box d-flex align-items-center w-100">
+        <i class="devicon-html5-plain colored skill-icon"></i>
+        <span>HTML5</span>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-5 d-flex justify-content-center">
+      <div class="skill-box d-flex align-items-center w-100">
+        <i class="devicon-css3-plain colored skill-icon"></i>
+        <span>CSS3</span>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-5 d-flex justify-content-center">
+      <div class="skill-box d-flex align-items-center w-100">
+        <i class="devicon-javascript-plain colored skill-icon"></i>
+        <span>JavaScript</span>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-5 d-flex justify-content-center">
+      <div class="skill-box d-flex align-items-center w-100">
+        <i class="devicon-cplusplus-plain colored skill-icon"></i>
+        <span>C++</span>
+      </div>
+    </div>
+
+    </div>
+  </div> 
+</section>
+
+<!--hero ending-->
+
+<!--footer-->
+
+<footer class="footer bg-dark text-white text-center py-4 mt-5">
+
+  <p class="mb-3">© 2025 Rezpahllevy. All Rights Reserved.</p>
+
+  <!-- Ikon Sosial Media -->
+  <div class="d-flex justify-content-center gap-4">
+    <a href="#" class="footer-icon" title="Github">
+      <i class="bi bi-github"></i>
+    </a>
+    <a href="#" class="footer-icon" title="LinkedIn">
+      <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="https://www.instagram.com/reezapahlevy_/" class="footer-icon" title="Instagram">
+      <i class="bi bi-instagram"></i>
+    </a>
+  </div>
+
+</footer>
+
+<!--footer ending-->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script>
+      const carousel = document.getElementById('experienceCarousel');
+      const parent = document.querySelector('.parent');
+      const backgrounds = [
+        './image/unnamed.webp',
+        './image/ekop2.jpeg',
+        './image/background.jpg'
+      ];
+
+      carousel.addEventListener('slid.bs.carousel', function (event) {
+        const slideIndex = event.to;
+        parent.style.backgroundImage = `url('${backgrounds[slideIndex]}')`;
+      });
+    </script>
+  </body>
+</html>
