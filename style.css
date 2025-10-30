@@ -179,9 +179,9 @@ body {
 
 .skills-wrapper {
   background-color: #e6e6e6; /* abu-abu */
-  padding: 15px;
+  padding: 0px;
   border-radius: 20px;
-  max-width: 650px; /* supaya pas lebar 2 kolom */
+  max-width: 600px; /* supaya pas lebar 2 kolom */
   margin: 0 auto; /* center */
 }
 
@@ -310,7 +310,7 @@ body {
   /* MOBILE (default) */
 .skills-wrapper {
   background-color: #e6e6e6;
-  padding: 12px;          /* diperkecil */
+  padding: 0px;          /* diperkecil */
   border-radius: 16px;
   width: 100%;
   text-align: center;
